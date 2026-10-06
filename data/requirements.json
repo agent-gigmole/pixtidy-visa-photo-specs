@@ -1,0 +1,1066 @@
+{
+    "publisher": "pixtidy",
+    "url": "https://pixtidy.com/requirements.json",
+    "updated": "2026-10-05",
+    "license": "Facts from official sources; cite the official source and https://pixtidy.com",
+    "documents": [
+        {
+            "id": "us-passport",
+            "country": "United States",
+            "document": "Passport",
+            "page": "https://pixtidy.com/us-passport-photo",
+            "print_mm": {
+                "width": 50.8,
+                "height": 50.8
+            },
+            "pixels": null,
+            "head_height": {
+                "min": 0.5,
+                "max": 0.69,
+                "unit": "fraction_of_photo_height",
+                "official": true
+            },
+            "background": "White or off-white, no shadows, texture or lines",
+            "file": null,
+            "rules": [
+                "Taken in the last 6 months",
+                "Neutral expression or natural smile, both eyes open, mouth closed",
+                "Face the camera directly, head not tilted",
+                "No eyeglasses (medical exception needs a signed doctor's note)",
+                "No hats or head coverings (religious/medical exceptions need a signed statement)",
+                "No headphones, uniforms or camouflage",
+                "Not edited with software, filters or AI"
+            ],
+            "sources": [
+                {
+                    "label": "State Dept: passport photos",
+                    "url": "https://travel.state.gov/content/travel/en/passports/how-apply/photos.html",
+                    "verified": "2026-09-27"
+                },
+                {
+                    "label": "State Dept: photo composition template",
+                    "url": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/photos/photo-composition-template.html",
+                    "verified": "2026-09-27"
+                }
+            ]
+        },
+        {
+            "id": "us-passport-renewal",
+            "country": "United States",
+            "document": "Passport Online Renewal",
+            "page": "https://pixtidy.com/us-passport-renewal-photo",
+            "print_mm": null,
+            "pixels": null,
+            "head_height": {
+                "min": 0.45,
+                "max": 0.6,
+                "unit": "fraction_of_photo_height",
+                "official": false
+            },
+            "background": "White or off-white, plain, no shadows, texture or lines",
+            "file": null,
+            "rules": [
+                "Digital file 54 KB \u2013 10 MB (we export JPG)",
+                "Head and shoulders centred; leave a little room around your face",
+                "Neutral expression or natural smile \u2014 no teeth showing",
+                "Remove glasses and anything covering your face, unless for documented religious or medical reasons",
+                "Have someone else take it; no filters, retouching or AI"
+            ],
+            "sources": [
+                {
+                    "label": "State Dept: uploading a digital photo",
+                    "url": "https://travel.state.gov/en/passports/renew-replace/online/upload-digital-photo.html",
+                    "verified": "2026-09-30"
+                }
+            ]
+        },
+        {
+            "id": "us-visa",
+            "country": "United States",
+            "document": "Visa (DS-160)",
+            "page": "https://pixtidy.com/us-visa-photo",
+            "print_mm": {
+                "width": 50.8,
+                "height": 50.8
+            },
+            "pixels": null,
+            "head_height": {
+                "min": 0.5,
+                "max": 0.69,
+                "unit": "fraction_of_photo_height",
+                "official": true
+            },
+            "background": "White or off-white, no shadows, texture or lines",
+            "file": null,
+            "rules": [
+                "Taken in the last 6 months",
+                "Neutral facial expression, both eyes open",
+                "Face the camera directly, head not tilted",
+                "No eyeglasses (rare medical exception needs a statement signed by a medical professional)",
+                "No hats or head coverings (religious/medical exceptions need a signed statement)",
+                "No headphones, uniforms or camouflage",
+                "Not edited with software, filters or AI"
+            ],
+            "sources": [
+                {
+                    "label": "State Dept: digital image requirements",
+                    "url": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/photos/digital-image-requirements.html",
+                    "verified": "2026-09-27"
+                },
+                {
+                    "label": "State Dept: photo composition template",
+                    "url": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/photos/photo-composition-template.html",
+                    "verified": "2026-09-27"
+                }
+            ]
+        },
+        {
+            "id": "us-green-card",
+            "country": "United States",
+            "document": "Green Card (USCIS)",
+            "page": "https://pixtidy.com/us-green-card-photo",
+            "print_mm": {
+                "width": 50.8,
+                "height": 50.8
+            },
+            "pixels": null,
+            "head_height": {
+                "min": 0.5,
+                "max": 0.6875,
+                "unit": "fraction_of_photo_height",
+                "official": true
+            },
+            "background": "White to off-white, no shadows",
+            "file": null,
+            "rules": [
+                "Two identical colour photos, taken recently",
+                "Printed on thin glossy photo paper, unmounted and unretouched",
+                "Head bare unless you wear a head covering for religious reasons",
+                "Face the camera, neutral expression, eyes open",
+                "Also used for I-765, I-131 and N-400 (applicants abroad)"
+            ],
+            "sources": [
+                {
+                    "label": "USCIS Form I-485 instructions",
+                    "url": "https://www.uscis.gov/sites/default/files/document/forms/i-485instr.pdf",
+                    "verified": "2026-09-30"
+                },
+                {
+                    "label": "USCIS Form N-400 instructions",
+                    "url": "https://www.uscis.gov/sites/default/files/document/forms/n-400instr.pdf",
+                    "verified": "2026-09-30"
+                }
+            ]
+        },
+        {
+            "id": "us-baby-passport",
+            "country": "United States",
+            "document": "Baby Passport",
+            "page": "https://pixtidy.com/us-baby-passport-photo",
+            "print_mm": {
+                "width": 50.8,
+                "height": 50.8
+            },
+            "pixels": null,
+            "head_height": {
+                "min": 0.5,
+                "max": 0.69,
+                "unit": "fraction_of_photo_height",
+                "official": true
+            },
+            "background": "White or off-white, no shadows, texture or lines",
+            "file": null,
+            "rules": [
+                "Lay the baby on a plain white or off-white sheet, or cover a car seat with one",
+                "It is okay if a baby's eyes are not entirely open; older children must have eyes open",
+                "No other person in the photo; full face visible, not blocked by hands or a pacifier",
+                "No shadows on the baby's face",
+                "Not edited with software, filters or AI"
+            ],
+            "sources": [
+                {
+                    "label": "State Dept: passport photos (children)",
+                    "url": "https://travel.state.gov/content/travel/en/passports/how-apply/photos.html",
+                    "verified": "2026-09-30"
+                }
+            ]
+        },
+        {
+            "id": "uk-visa",
+            "country": "UK",
+            "document": "Visa",
+            "page": "https://pixtidy.com/uk-visa-photo",
+            "print_mm": null,
+            "pixels": null,
+            "head_height": {
+                "min": 0.4,
+                "max": 0.55,
+                "unit": "fraction_of_photo_height",
+                "official": false
+            },
+            "background": "Plain light-coloured background",
+            "file": null,
+            "rules": [
+                "At least 600\u00d7750 pixels, JPG, 50 KB to 6 MB",
+                "Show your head, shoulders and upper body",
+                "Plain expression, mouth closed, eyes open",
+                "Avoid glasses; never sunglasses or tinted lenses",
+                "No head covering unless for religious or medical reasons",
+                "Not altered by software or filters, not mirrored or flipped"
+            ],
+            "sources": [
+                {
+                    "label": "GOV.UK: photos for visa applications",
+                    "url": "https://www.gov.uk/guidance/how-to-take-a-photo-for-a-visa-application-or-permission",
+                    "verified": "2026-09-30"
+                }
+            ]
+        },
+        {
+            "id": "uk-eta",
+            "country": "UK",
+            "document": "ETA",
+            "page": "https://pixtidy.com/uk-eta-photo",
+            "print_mm": null,
+            "pixels": null,
+            "head_height": {
+                "min": 0.4,
+                "max": 0.55,
+                "unit": "fraction_of_photo_height",
+                "official": false
+            },
+            "background": "Plain light-coloured background",
+            "file": null,
+            "rules": [
+                "At least 600\u00d7750 pixels, JPG, 50 KB to 6 MB",
+                "Show your head, shoulders and upper body",
+                "Plain expression, mouth closed, eyes open",
+                "Avoid glasses; never sunglasses or tinted lenses",
+                "No head covering unless for religious or medical reasons",
+                "Not altered by software or filters, not mirrored or flipped"
+            ],
+            "sources": [
+                {
+                    "label": "GOV.UK: apply for an ETA",
+                    "url": "https://www.gov.uk/eta/apply",
+                    "verified": "2026-10-01"
+                },
+                {
+                    "label": "GOV.UK: photos for visa applications",
+                    "url": "https://www.gov.uk/guidance/how-to-take-a-photo-for-a-visa-application-or-permission",
+                    "verified": "2026-09-30"
+                }
+            ]
+        },
+        {
+            "id": "india-oci",
+            "country": "India",
+            "document": "OCI Card",
+            "page": "https://pixtidy.com/india-oci-photo",
+            "print_mm": null,
+            "pixels": null,
+            "head_height": {
+                "min": 0.5,
+                "max": 0.69,
+                "unit": "fraction_of_photo_height",
+                "official": true
+            },
+            "background": "Plain light colour \u2014 not white, no border",
+            "file": null,
+            "rules": [
+                "Square photo, 200\u00d7200 to 900\u00d7900 pixels, JPEG up to 200 KB",
+                "Plain light-coloured background that is not white",
+                "Face the camera, full face visible, natural expression",
+                "No glare on glasses and no tinted lenses",
+                "Head coverings only for religious reasons, face fully visible",
+                "No border around the photo"
+            ],
+            "sources": [
+                {
+                    "label": "OCI Services FAQ",
+                    "url": "https://ociservices.gov.in/onlineOCI/faq",
+                    "verified": "2026-09-27"
+                }
+            ]
+        },
+        {
+            "id": "india-evisa",
+            "country": "India",
+            "document": "e-Visa",
+            "page": "https://pixtidy.com/india-evisa-photo",
+            "print_mm": null,
+            "pixels": null,
+            "head_height": {
+                "min": 0.5,
+                "max": 0.69,
+                "unit": "fraction_of_photo_height",
+                "official": false
+            },
+            "background": "Plain light-coloured or white background, no shadows",
+            "file": null,
+            "rules": [
+                "Square photo (height equals width), JPEG, 10 KB \u2013 1 MB",
+                "Full face, front view, eyes open, no spectacles",
+                "Full head from top of hair to bottom of chin, centred",
+                "Plain light-coloured or white background, no shadows, no border"
+            ],
+            "sources": [
+                {
+                    "label": "Indian Visa Online: e-Visa instructions",
+                    "url": "https://indianvisaonline.gov.in/evisa/tvoa.html",
+                    "verified": "2026-09-30"
+                }
+            ]
+        },
+        {
+            "id": "schengen-visa",
+            "country": "Schengen",
+            "document": "Visa",
+            "page": "https://pixtidy.com/schengen-visa-photo",
+            "print_mm": {
+                "width": 35,
+                "height": 45
+            },
+            "pixels": null,
+            "head_height": {
+                "min": 0.7111111111111111,
+                "max": 0.8,
+                "unit": "fraction_of_photo_height",
+                "official": true
+            },
+            "background": "Plain, light and even (neutral grey is ideal)",
+            "file": null,
+            "rules": [
+                "Neutral expression, mouth closed, looking straight at the camera",
+                "Glasses: no glare, no tinted lenses, frames not covering the eyes",
+                "Head coverings only for religious reasons",
+                "Face centred, sharp and evenly lit",
+                "Plain light background with no shadows"
+            ],
+            "sources": [
+                {
+                    "label": "European Commission: ICAO photo guidelines",
+                    "url": "https://home-affairs.ec.europa.eu/document/download/5bb16566-c8c2-4afb-b038-530f488cb72a_en?filename=icao_photograph_guidelines_en.pdf",
+                    "verified": "2026-09-27"
+                },
+                {
+                    "label": "German Foreign Office: visa photo instructions",
+                    "url": "https://kuwait.diplo.de/resource/blob/2079290/153d98a9ab09f4702a0d796b5000a6f6/pdf-bio-photo-data.pdf",
+                    "verified": "2026-09-27"
+                }
+            ]
+        },
+        {
+            "id": "china-visa",
+            "country": "China",
+            "document": "Visa",
+            "page": "https://pixtidy.com/china-visa-photo",
+            "print_mm": {
+                "width": 33,
+                "height": 48
+            },
+            "pixels": null,
+            "head_height": {
+                "min": 0.5833333333333334,
+                "max": 0.6875,
+                "unit": "fraction_of_photo_height",
+                "official": true
+            },
+            "background": "White or close to white, no border",
+            "file": null,
+            "rules": [
+                "Taken in the last 6 months",
+                "Neutral expression, eyes open, mouth closed, ears visible",
+                "Glasses only with clear lenses and no glare",
+                "Head coverings only for religious reasons",
+                "No jewellery, hands, toys or other people in the photo",
+                "White or near-white background, no border"
+            ],
+            "sources": [
+                {
+                    "label": "Chinese Embassy: visa photo requirements",
+                    "url": "https://us.china-embassy.gov.cn/eng/lsfw/zj/qz2021/201612/t20161206_4410998.htm",
+                    "verified": "2026-09-27"
+                }
+            ]
+        },
+        {
+            "id": "vietnam-evisa",
+            "country": "Vietnam",
+            "document": "e-Visa",
+            "page": "https://pixtidy.com/vietnam-evisa-photo",
+            "print_mm": null,
+            "pixels": null,
+            "head_height": {
+                "min": 0.45,
+                "max": 0.6,
+                "unit": "fraction_of_photo_height",
+                "official": false
+            },
+            "background": "White background",
+            "file": null,
+            "rules": [
+                "4\u00d76 cm portrait, JPG, under 2 MB",
+                "White background, face straight to the camera",
+                "No glasses, no hat"
+            ],
+            "sources": [
+                {
+                    "label": "Vietnam e-Visa portal",
+                    "url": "https://evisa.gov.vn/e-visa/foreigners",
+                    "verified": "2026-09-30"
+                }
+            ]
+        },
+        {
+            "id": "thailand-evisa",
+            "country": "Thailand",
+            "document": "e-Visa",
+            "page": "https://pixtidy.com/thailand-evisa-photo",
+            "print_mm": null,
+            "pixels": null,
+            "head_height": {
+                "min": 0.7,
+                "max": 0.8,
+                "unit": "fraction_of_photo_height",
+                "official": true
+            },
+            "background": "Plain light-coloured background",
+            "file": null,
+            "rules": [
+                "JPG up to 3 MB, at least 160 pixels tall",
+                "Head takes up 70\u201380% of the photo",
+                "Eyes not covered by sunglasses, tinted lenses, frames or hair; no glare",
+                "Plain light-coloured background"
+            ],
+            "sources": [
+                {
+                    "label": "Thai e-Visa (Ministry of Foreign Affairs)",
+                    "url": "https://www.thaievisa.go.th/",
+                    "verified": "2026-09-30"
+                }
+            ]
+        },
+        {
+            "id": "australia-visa",
+            "country": "Australia",
+            "document": "Visa",
+            "page": "https://pixtidy.com/australia-visa-photo",
+            "print_mm": null,
+            "pixels": null,
+            "head_height": {
+                "min": 0.64,
+                "max": 0.78,
+                "unit": "fraction_of_photo_height",
+                "official": false
+            },
+            "background": "Plain neutral or light grey background that contrasts with your face",
+            "file": null,
+            "rules": [
+                "JPEG between 70 KB and 3.5 MB, about 1200\u00d71600 pixels",
+                "Unedited \u2014 do not remove background, moles, wrinkles, scars or red eyes",
+                "No glasses unless for medical reasons (clear lenses, no glare)",
+                "Religious head coverings allowed with the full face visible",
+                "Not a scan of a photo or a photo of a photo"
+            ],
+            "sources": [
+                {
+                    "label": "Home Affairs: ImmiAccount photograph help",
+                    "url": "https://immi.homeaffairs.gov.au/help-text/evidence/Pages/et-h0369.aspx",
+                    "verified": "2026-09-30"
+                }
+            ]
+        },
+        {
+            "id": "brazil-evisa",
+            "country": "Brazil",
+            "document": "e-Visa",
+            "page": "https://pixtidy.com/brazil-evisa-photo",
+            "print_mm": {
+                "width": 50.8,
+                "height": 50.8
+            },
+            "pixels": null,
+            "head_height": {
+                "min": 0.5,
+                "max": 0.69,
+                "unit": "fraction_of_photo_height",
+                "official": false
+            },
+            "background": "White background",
+            "file": "Upload and print; no file limits published",
+            "rules": [
+                "Passport-style photo, 2 \u00d7 2 inches, white background",
+                "Upload a digital copy with the online application; the Chicago consulate also asks for a printed copy on photo-quality paper",
+                "Follow the ICAO photograph guidelines: full face, looking at the camera, neutral expression, eyes open"
+            ],
+            "sources": [
+                {
+                    "label": "Consulate General of Brazil in Miami: e-Visa requirements",
+                    "url": "https://www.gov.br/mre/pt-br/consulado-miami/information-about-visas-in-english/electronic-visitor-visa-e-visa",
+                    "verified": "2026-10-01"
+                },
+                {
+                    "label": "Consulate General of Brazil in Chicago: e-Visa",
+                    "url": "https://www.gov.br/mre/pt-br/consulado-chicago/Visas/types-of-visa-1/e-visa",
+                    "verified": "2026-10-01"
+                }
+            ]
+        },
+        {
+            "id": "nz-passport",
+            "country": "New Zealand",
+            "document": "Passport",
+            "page": "https://pixtidy.com/nz-passport-photo",
+            "print_mm": null,
+            "pixels": null,
+            "head_height": {
+                "min": 0.5,
+                "max": 0.65,
+                "unit": "fraction_of_photo_height",
+                "official": false
+            },
+            "background": "Plain, light-coloured background",
+            "file": null,
+            "rules": [
+                "3:4 ratio, 900\u00d71200 to 4500\u00d76000 pixels, JPG 250 KB \u2013 5 MB",
+                "Space above the head and on both sides; include shoulders and upper chest",
+                "Neutral expression (no smile), mouth closed, eyes open",
+                "Clear prescription glasses allowed without glare; no sunglasses",
+                "Taken in the last 6 months; not edited, filtered or changed with AI"
+            ],
+            "sources": [
+                {
+                    "label": "NZ Passports: passport photos",
+                    "url": "https://www.passports.govt.nz/passport-photos",
+                    "verified": "2026-09-30"
+                }
+            ]
+        },
+        {
+            "id": "nz-eta",
+            "country": "New Zealand",
+            "document": "NZeTA",
+            "page": "https://pixtidy.com/nz-eta-photo",
+            "print_mm": null,
+            "pixels": null,
+            "head_height": {
+                "min": 0.7,
+                "max": 0.8,
+                "unit": "fraction_of_photo_height",
+                "official": true
+            },
+            "background": "Plain, light-coloured background, not white (light grey works well)",
+            "file": null,
+            "rules": [
+                "JPG, 3:4 portrait, 900\u00d71200 to 2250\u00d73000 pixels, 512 KB to 3.14 MB",
+                "Face covers 70\u201380% of the image, centred, looking straight at the camera",
+                "Neutral expression, mouth closed, eyes open; hair not covering face or ears",
+                "Prescription glasses allowed if clear, untinted and without glare",
+                "Taken in the last 6 months, by someone else if possible (selfies only in the NZeTA app)",
+                "No filters, beautification, AI edits or brightness/contrast changes"
+            ],
+            "sources": [
+                {
+                    "label": "Immigration NZ: acceptable photos for a visa or NZeTA",
+                    "url": "https://www.immigration.govt.nz/process-to-apply/applying-for-a-visa/applying-online/uploading-documents-and-photos/visa-and-nzeta-photos/",
+                    "verified": "2026-10-01"
+                },
+                {
+                    "label": "Immigration NZ: fixing errors when uploading a photo",
+                    "url": "https://www.immigration.govt.nz/process-to-apply/applying-for-a-visa/applying-online/uploading-documents-and-photos/fixing-errors-when-uploading-a-photo/",
+                    "verified": "2026-10-01"
+                }
+            ]
+        },
+        {
+            "id": "nigeria-passport",
+            "country": "Nigeria",
+            "document": "Passport",
+            "page": "https://pixtidy.com/nigeria-passport-photo",
+            "print_mm": null,
+            "pixels": {
+                "width": 600,
+                "height": 800
+            },
+            "head_height": {
+                "min": 0.5,
+                "max": 0.69,
+                "unit": "fraction_of_photo_height",
+                "official": true
+            },
+            "background": "Plain white background",
+            "file": null,
+            "rules": [
+                "600\u00d7800 pixels, JPEG up to 2 MB",
+                "Head (top of hair to chin) 50\u201369% of the photo height; eyes 56\u201369% up from the bottom",
+                "Eyeglasses are not allowed",
+                "Plain white background, even lighting, no shadows",
+                "Do not cut out or replace the background with editing tools"
+            ],
+            "sources": [
+                {
+                    "label": "Nigeria Immigration Service: passport portal",
+                    "url": "https://passport.immigration.gov.ng/",
+                    "verified": "2026-09-30"
+                }
+            ]
+        },
+        {
+            "id": "pakistan-visa",
+            "country": "Pakistan",
+            "document": "Visa",
+            "page": "https://pixtidy.com/pakistan-visa-photo",
+            "print_mm": {
+                "width": 35,
+                "height": 45
+            },
+            "pixels": null,
+            "head_height": {
+                "min": 0.7,
+                "max": 0.8,
+                "unit": "fraction_of_photo_height",
+                "official": true
+            },
+            "background": "Plain white background",
+            "file": null,
+            "rules": [
+                "35\u00d745 mm; face takes up 70\u201380% of the photo",
+                "Plain white background, no shadows or red eye",
+                "No glasses; neutral expression with mouth closed",
+                "Head coverings allowed if chin, forehead and both face edges are visible",
+                "JPEG kept under 60 KB (the stricter of NADRA's two published limits)"
+            ],
+            "sources": [
+                {
+                    "label": "NADRA: photograph guidelines",
+                    "url": "https://visa.nadra.gov.pk/download/photograph-guidelines/",
+                    "verified": "2026-09-30"
+                }
+            ]
+        },
+        {
+            "id": "tanzania-evisa",
+            "country": "Tanzania",
+            "document": "e-Visa",
+            "page": "https://pixtidy.com/tanzania-evisa-photo",
+            "print_mm": null,
+            "pixels": null,
+            "head_height": {
+                "min": 0.6,
+                "max": 0.75,
+                "unit": "fraction_of_photo_height",
+                "official": false
+            },
+            "background": "Plain background (white or light is safest)",
+            "file": null,
+            "rules": [
+                "Colour photo no larger than 45\u00d735 mm, JPG up to 500 KB",
+                "Full head visible from top of hair to bottom of chin",
+                "Plain background; natural expression",
+                "Glasses allowed if you normally wear them",
+                "Head coverings only for religious reasons, with chin, forehead and face edges visible"
+            ],
+            "sources": [
+                {
+                    "label": "Tanzania Immigration: e-Visa guidelines",
+                    "url": "https://visa.immigration.go.tz/guidelines",
+                    "verified": "2026-09-30"
+                }
+            ]
+        },
+        {
+            "id": "ethiopia-evisa",
+            "country": "Ethiopia",
+            "document": "e-Visa",
+            "page": "https://pixtidy.com/ethiopia-evisa-photo",
+            "print_mm": {
+                "width": 50.8,
+                "height": 50.8
+            },
+            "pixels": null,
+            "head_height": {
+                "min": 0.5,
+                "max": 0.69,
+                "unit": "fraction_of_photo_height",
+                "official": false
+            },
+            "background": "White background, clean and not blurred",
+            "file": null,
+            "rules": [
+                "2\u00d72 inch colour photo, taken in the last 6 months",
+                "White background \u2014 not blurred or cluttered",
+                "No selfies: have someone else take it",
+                "No filters or retouching",
+                "JPEG/PNG under 2 MB"
+            ],
+            "sources": [
+                {
+                    "label": "Ethiopia e-Visa portal",
+                    "url": "https://www.evisa.gov.et/",
+                    "verified": "2026-09-30"
+                }
+            ]
+        },
+        {
+            "id": "india-passport",
+            "country": "India",
+            "document": "Passport",
+            "page": "https://pixtidy.com/india-passport-photo",
+            "print_mm": {
+                "width": 35,
+                "height": 45
+            },
+            "pixels": {
+                "width": 630,
+                "height": 810
+            },
+            "head_height": {
+                "min": 0.8,
+                "max": 0.85,
+                "unit": "fraction_of_photo_height",
+                "official": true
+            },
+            "background": "White background, no shadows",
+            "file": "colour; Passport Seva publishes no file-size limit",
+            "rules": [
+                "Colour photo, 630 \u00d7 810 pixels",
+                "Close up of the head and top of the shoulders; the face takes up 80\u201385% of the photograph",
+                "Full head from top of hair to bottom of chin, centred, not tilted",
+                "White background, uniform lighting, no shadows, no red eye",
+                "Looking at the camera, eyes open, mouth closed, natural expression",
+                "Glasses off to avoid reflections; head coverings only for religious reasons, with the face from chin to forehead visible",
+                "Not altered by software"
+            ],
+            "sources": [
+                {
+                    "label": "Passport Seva: Guidelines for ICAO compliant photographs",
+                    "url": "https://mportal.passportindia.gov.in/pdf/Guidelines_for_ICAO_Compliant_Photographs_for_Passport_Applications.pdf",
+                    "verified": "2026-10-05"
+                },
+                {
+                    "label": "Embassy of India, Washington DC: Passport services (GPSP 2.0 photo upload)",
+                    "url": "https://indianembassyusa.gov.in/News?id=250090",
+                    "verified": "2026-10-05"
+                }
+            ]
+        },
+        {
+            "id": "taiwan-passport",
+            "country": "Taiwan",
+            "document": "Passport",
+            "page": "https://pixtidy.com/taiwan-passport-photo",
+            "print_mm": {
+                "width": 35,
+                "height": 45
+            },
+            "pixels": null,
+            "head_height": {
+                "min": 0.7111111111111111,
+                "max": 0.8,
+                "unit": "fraction_of_photo_height",
+                "official": true
+            },
+            "background": "Plain white background, no shadows",
+            "file": "Print on photo paper; BOCA also takes a digital upload on its website",
+            "rules": [
+                "Two identical colour photos, 35 \u00d7 45 mm, taken within the last six months",
+                "Head from chin to crown 32\u201336 mm, centred; head and top of the shoulders",
+                "Plain white background, uniform lighting, no shadows or reflections, no red eye",
+                "Facing forward, looking at the camera, no hat, neutral expression, mouth closed",
+                "Glasses only if the eyes are clear with no glare; no tinted lenses",
+                "Not altered, composited or mirrored"
+            ],
+            "sources": [
+                {
+                    "label": "Bureau of Consular Affairs (Taiwan): Passport photos",
+                    "url": "https://www.boca.gov.tw/cp-140-467-29b1d-2.html",
+                    "verified": "2026-10-05"
+                }
+            ]
+        },
+        {
+            "id": "italy-passport",
+            "country": "Italy",
+            "document": "Passport",
+            "page": "https://pixtidy.com/italy-passport-photo",
+            "print_mm": {
+                "width": 35,
+                "height": 45
+            },
+            "pixels": null,
+            "head_height": {
+                "min": 0.7111111111111111,
+                "max": 0.8,
+                "unit": "fraction_of_photo_height",
+                "official": true
+            },
+            "background": "White background, uniform light, no shadows",
+            "file": "Printed photos; the Questura's software checks them when you apply",
+            "rules": [
+                "Recent colour photo (no more than 6 months), 35 \u00d7 45 mm",
+                "Face 70\u201380% of the photo from chin to forehead; head and top of the shoulders, top of the head not cut off",
+                "White background, uniform light, no shadows or reflections, no red eye",
+                "Facing the camera, eyes open and visible, neutral expression, mouth closed",
+                "Glasses allowed with clear lenses, no reflections, frames not covering the eyes",
+                "No hats except for religious reasons, with the face visible from chin to forehead",
+                "Printed on quality photo paper; photos from a digital camera are accepted"
+            ],
+            "sources": [
+                {
+                    "label": "Ministero degli Esteri: ICAO photo guidelines",
+                    "url": "https://www.esteri.it/en/servizi-opportunita/italiani-all-estero/documenti_di_viaggio/linee-guida-foto-icao/",
+                    "verified": "2026-10-05"
+                },
+                {
+                    "label": "Polizia di Stato (Questura): passport photos to the ICAO standard",
+                    "url": "https://questure.poliziadistato.it/statics/35/foto-per-passaporto.pdf",
+                    "verified": "2026-10-05"
+                }
+            ]
+        },
+        {
+            "id": "poland-passport",
+            "country": "Poland",
+            "document": "Passport",
+            "page": "https://pixtidy.com/poland-passport-photo",
+            "print_mm": {
+                "width": 35,
+                "height": 45
+            },
+            "pixels": null,
+            "head_height": {
+                "min": 0.7,
+                "max": 0.8,
+                "unit": "fraction_of_photo_height",
+                "official": true
+            },
+            "background": "White background, evenly lit, no shadows or decorative elements",
+            "file": null,
+            "rules": [
+                "Colour photo on paper, 35 \u00d7 45 mm (width \u00d7 height)",
+                "Taken no more than 6 months before you apply",
+                "Whole head from the crown plus the top of the shoulders; the face takes up 70\u201380% of the photo",
+                "Natural expression, mouth closed",
+                "White background, evenly lit, without shadows; only you in the photo",
+                "Sharp, natural contrast, no visible pixels",
+                "Corrective glasses allowed if your eyes are clearly visible, the frames don't cover your eyebrows and the lenses show no reflections",
+                "Head covering only for religious reasons, with your face visible (attach a certificate of membership of the religious community)"
+            ],
+            "sources": [
+                {
+                    "label": "gov.pl: Zdj\u0119cie do dowodu lub paszportu (ID card and passport photo)",
+                    "url": "https://www.gov.pl/web/gov/zdjecie-do-dowodu-lub-paszportu",
+                    "verified": "2026-10-05"
+                }
+            ]
+        },
+        {
+            "id": "uae-visa",
+            "country": "UAE (Dubai)",
+            "document": "Visa",
+            "page": "https://pixtidy.com/uae-visa-photo",
+            "print_mm": {
+                "width": 35,
+                "height": 45
+            },
+            "pixels": null,
+            "head_height": {
+                "min": 0.7,
+                "max": 0.8,
+                "unit": "fraction_of_photo_height",
+                "official": true
+            },
+            "background": "White background, no shadows or reflections",
+            "file": null,
+            "rules": [
+                "Recent photo (no more than 6 months old), 35 \u00d7 45 mm",
+                "Close-up of your head and top of your shoulders; your face takes up 70\u201380% of the photo",
+                "White background, no shadows or reflections",
+                "Look straight at the camera with a neutral expression and eyes open",
+                "No hats or sunglasses; medical glasses are allowed if they don't cover your eyes",
+                "Sharp and high quality; photos from a digital camera must be printed in colour on photo-quality paper"
+            ],
+            "sources": [
+                {
+                    "label": "ICP (UAE): Personal Photo Specifications",
+                    "url": "https://icp.gov.ae/wp-content/uploads/2021/11/icao_english.pdf",
+                    "verified": "2026-10-05"
+                },
+                {
+                    "label": "ICP (UAE): FAQ \u2014 approved photo standards",
+                    "url": "https://icp.gov.ae/en/faq/",
+                    "verified": "2026-10-05"
+                }
+            ]
+        },
+        {
+            "id": "singapore-visa",
+            "country": "Singapore",
+            "document": "Visa",
+            "page": "https://pixtidy.com/singapore-visa-photo",
+            "print_mm": null,
+            "pixels": {
+                "width": 400,
+                "height": 514
+            },
+            "head_height": {
+                "min": 0.6,
+                "max": 0.78,
+                "unit": "fraction_of_photo_height",
+                "official": false
+            },
+            "background": "White background",
+            "file": null,
+            "rules": [
+                "Colour photo, 400 \u00d7 514 pixels for e-Services uploads, up to 8 MB",
+                "Taken within the last three months",
+                "Full face, no headgear unless worn habitually for religious or racial customs and not hiding the face",
+                "White background",
+                "Not a selfie: ask someone to take it; resizing in photo software is allowed",
+                "Not altered or enhanced"
+            ],
+            "sources": [
+                {
+                    "label": "ICA Singapore: Photo guidelines",
+                    "url": "https://www.ica.gov.sg/photo-guidelines",
+                    "verified": "2026-10-05"
+                }
+            ]
+        },
+        {
+            "id": "australia-passport",
+            "country": "Australia",
+            "document": "Passport",
+            "page": "https://pixtidy.com/australia-passport-photo",
+            "print_mm": {
+                "width": 35,
+                "height": 45
+            },
+            "pixels": null,
+            "head_height": {
+                "min": 0.7111111111111111,
+                "max": 0.8,
+                "unit": "fraction_of_photo_height",
+                "official": true
+            },
+            "background": "Plain white or light grey background that contrasts with your face",
+            "file": "Printed photos: dye-sublimation print on heavy glossy paper (min. 200 gsm), not inkjet",
+            "rules": [
+                "Two identical colour photos, 35\u201340 mm wide and 45\u201350 mm high, less than 6 months old",
+                "Face from chin to crown 32\u201336 mm, centred, looking straight at the camera",
+                "Plain white or light grey background that contrasts with your face",
+                "Even lighting, no shadows or reflections, no red eye, no retouching",
+                "Eyes open, neutral expression; no glasses unless they can't be removed for medical reasons",
+                "Dye-sublimation prints on heavy glossy paper (min. 200 gsm) \u2014 not from an inkjet printer"
+            ],
+            "sources": [
+                {
+                    "label": "Australian Passport Office: Passport photos",
+                    "url": "https://www.passports.gov.au/PhotoGuidelines",
+                    "verified": "2026-10-05"
+                }
+            ]
+        },
+        {
+            "id": "turkey-passport",
+            "country": "Turkey",
+            "document": "Passport",
+            "page": "https://pixtidy.com/turkey-passport-photo",
+            "print_mm": {
+                "width": 50,
+                "height": 60
+            },
+            "pixels": null,
+            "head_height": {
+                "min": 0.6,
+                "max": 0.75,
+                "unit": "fraction_of_photo_height",
+                "official": false
+            },
+            "background": "White background with no pattern and no shadows",
+            "file": "Printed photo \u2014 do not let the shop cut it down to 35 \u00d7 45 mm",
+            "rules": [
+                "Biometric photo, 50 \u00d7 60 mm, taken within the last 6 months",
+                "White background with no pattern and no shadows",
+                "Face centred and fully visible together with the hairstyle",
+                "Eyes open and visible, looking at the camera; even light, no reflections, no red eye",
+                "Glasses only if you must wear them: no reflections, no tinted lenses, frames not covering the eyes",
+                "No hats or other objects; with a headscarf the face must be visible from chin to forehead",
+                "Do not cut the photo to 35 \u00d7 45 mm"
+            ],
+            "sources": [
+                {
+                    "label": "NVI (Turkey): Biometric photo requirements",
+                    "url": "https://www.nvi.gov.tr/istanbul/biyometrik-fotograf-nasil-olmalidir",
+                    "verified": "2026-10-05"
+                }
+            ]
+        },
+        {
+            "id": "israel-passport",
+            "country": "Israel",
+            "document": "Passport",
+            "page": "https://pixtidy.com/israel-passport-photo",
+            "print_mm": {
+                "width": 50.8,
+                "height": 50.8
+            },
+            "pixels": null,
+            "head_height": {
+                "min": 0.5,
+                "max": 0.69,
+                "unit": "fraction_of_photo_height",
+                "official": false
+            },
+            "background": "White background",
+            "file": "Two printed photos, 2 \u00d7 2 inches when you apply in the United States",
+            "rules": [
+                "Two recent photos (taken within the last 3 months), 2 \u00d7 2 inches in the United States",
+                "White background, full front view of the face",
+                "Hair tucked behind the ears; facial features fully visible, including eyebrows",
+                "No glasses",
+                "Good quality and in focus \u2014 low-quality photos are not accepted",
+                "Outside the United States, Israeli missions ask for 5 \u00d7 5 cm photos"
+            ],
+            "sources": [
+                {
+                    "label": "Consulate General of Israel in Atlanta: Issuance of travel documents",
+                    "url": "https://embassies.gov.il/atlanta/en/services/israeli-citizens/issuance-travel-documents-passport-citizens-and-residents-israel",
+                    "verified": "2026-10-05"
+                }
+            ]
+        },
+        {
+            "id": "vietnam-passport",
+            "country": "Vietnam",
+            "document": "Passport",
+            "page": "https://pixtidy.com/vietnam-passport-photo",
+            "print_mm": {
+                "width": 50.8,
+                "height": 50.8
+            },
+            "pixels": null,
+            "head_height": {
+                "min": 0.5,
+                "max": 0.69,
+                "unit": "fraction_of_photo_height",
+                "official": false
+            },
+            "background": "Plain light background (the Embassy page only says standard passport photos)",
+            "file": "Three printed 2 \u00d7 2 inch photos when you apply through the Embassy in the United States",
+            "rules": [
+                "Three standard passport photos, 2 \u00d7 2 inches",
+                "One photo glued on the application form; two stapled to the application",
+                "Applications for renewal or replacement can be sent by mail, with a prepaid return envelope"
+            ],
+            "sources": [
+                {
+                    "label": "Embassy of Vietnam in the United States: How to get a Vietnamese passport renewed or replaced",
+                    "url": "https://vietnamembassy-usa.org/page/how-get-vietnamese-passport-renewed-expired-or-soon-be-expired-passports-or-replaced-lost-or",
+                    "verified": "2026-10-05"
+                }
+            ]
+        }
+    ]
+}
